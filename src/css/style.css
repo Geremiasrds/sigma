@@ -1,0 +1,29 @@
+html{
+    background-color: floralwhite;
+    
+}
+
+.primeiraLista, .segundaLista{
+    background-color: rgb(121, 121, 127)121, 121, 127);
+    font-size: px;
+}
+ .segundaLista{
+    background-color: rgb(208, 219, 219);
+} 
+.primeiraTabela{
+    background-color: rgb(205, 213, 214);
+    
+}
+.segundaTabela{
+    background-color: rgb(215, 220, 206);
+}
+.texto-butao{
+background-color: rgb(228, 218, 218);
+}
+button{
+    background-color: slateblue
+    ;
+    border-radius: 50%;
+   color: black;
+    font-size: 22px;
+}
