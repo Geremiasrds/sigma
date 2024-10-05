@@ -17,6 +17,20 @@ html{
     
 }
 
+
+.inputH1{
+   padding: 100px 0px 0px 0px;
+   
+    align-items: center;
+    text-align: center;
+    width:10% ;
+    position: ;
+}
+#H1Loja{
+    width:50% ;
+    position: absolute;
+}
+
 #sigma{
 
     width:50% ;
