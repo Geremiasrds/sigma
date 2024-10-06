@@ -77,6 +77,104 @@ button{
 input{
     font-size: 18px;
 }
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu{
+    box-sizing: border-box;
+    width: 40%;
+    min-width: 200px;
+    height: 100vh;
+    color: #fff;
+    background-color: #272727;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all .5s;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu li{
+    padding: 5px 0;
+    cursor: pointer;
+}
+.menu label{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+#toggle-menu{
+    display: none;
+}
+#toggle-menu:checked ~ .menu label{
+    right: -30px;
+    color: #000;
+}
+#toggle-menu:checked ~ .menu{
+    left: -40%;
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .menu{
+            box-sizing: border-box;
+            width: 40%;
+            min-width: 200px;
+            height: 100vh;
+            color: #fff;
+            background-color: #272727;
+            padding: 30px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            transition: all .5s;
+        }
+        .menu ul{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .menu li{
+            padding: 5px 0;
+            cursor: pointer;
+        }
+        .menu label{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            cursor: pointer;
+            transition: all .5s;
+        }
+        #toggle-menu{
+            display: none;
+        }
+        #toggle-menu:checked ~ .menu label{
+            right: -30px;
+            color: #000;
+        }
+        #toggle-menu:checked ~ .menu{
+            left: -40%;
+        }
+
 
 
     /* 
