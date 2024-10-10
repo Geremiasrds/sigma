@@ -1,128 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Kaisei+Decol:wght@400;500;700&family=Teko:wght@300..700&display=swap'); 
+
 
 h1 {
     font-family: Sixtyfour Convergence;
 } 
+h2{
+    font-family: Teko;   
+}
+h4{
+    font-family: Kaisei Decol ;
+}
+p{
+    font-family: IM Fell DW Pica SC;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 nav{
     font-size: 14px;
     position: absolute;
     right: 1%;
-    top: -1%;
+    top: -1%; 
     
 }
-.Geral{
-    background-color: rgb(10, 15, 13);
+.TodosOsProdutos{
+ display: inline-flex;
+
 }
 
-body {
-    display: inline block;
-    /* -ms-flex-order: inherit; */
-    align-items: stretch;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 .cabecalho {
 
     padding: 10px 5px;
     background-color: aquamarine;
 }
 
-button, input{
-    background-color:  #fff;
-    color: black;
+input{
     font-size: 17 px;
-    padding: 0px 50px;
+    padding: 0px 90px 0px 0px;
      
-}
-button{
-    padding: 0px;
 }
 
 li {
-    background-color: rgb(252, 251, 250);
     margin: 7px 8px 0px 0px;
-} 
-.cabecalho .H1sigma {
-    display: inline-block;
-
-} 
-
-.cabecalho nav {
-    float: right ;
-} 
-
-main {
-    background-color: whitesmoke;
-    padding: 0px;
-    align-items: stretch;
-    margin: 0 auto;
-    min-width: 320px;
-    max-width: 900px;
-
 }
-
-/* 
-.primeiraLista,
-.segundaLista {
-    background-color: rgb(121, 121, 127);
-    font-size: px;
+.lista{
+    font-size: 13px;
 }
-
-.segundaLista {
-    background-color: rgb(208, 219, 219);
-}
-
-.primeiraTabela {
-    background-color: rgb(205, 213, 214);
-
-}
-
-.segundaTabela {
-    background-color: rgb(215, 220, 206);
-}
-
-.texto-butao {
-    background-color: rgb(228, 218, 218);
-}
-
-
-input {
-    font-size: 18px;
-} */
-
-
-
-.menu {
-    box-sizing: border-box;
-    width: 40%;
-    min-width: 20px;
-    height: 100vh;
-    color: #fff;
-    background-color: #272727;
-    padding: 30px;
-    position: fixed ;
-    top: 0;
-    left: 0;
-    transition: all .5s;
-}
-.menu label {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    cursor: pointer;
-    transition: all .5s;
-}
-
-#toggle-menu {
-    display: none;
-}
-
-#toggle-menu:checked~.menu label {
-    right: -30px;
-    color: #000;
-}
-
-#toggle-menu:checked~.menu {
-    left: -40%;
-} 
