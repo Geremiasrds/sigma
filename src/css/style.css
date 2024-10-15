@@ -1,73 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Kaisei+Decol:wght@400;500;700&family=Teko:wght@300..700&display=swap');
 
-
 h1 {
     font-family: Sixtyfour Convergence;
-}
-
-h2 {
-    font-family: Teko;
-}
-
-h4 {
-    font-family: Kaisei Decol;
-}
-
-p:nth-child(n+1) {
-    font-family: IM Fell DW Pica SC;
-
+    margin-left: 10px;
 }
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   
+
 }
+.cabecalho {
+    position: fixed;
+    min-width: 100%;
+    padding-top: 10px;
+    background-color: aquamarine;
+}
+
+main {
+    
+    margin-left: 3%;
+}
+
+.listas {
+    margin-left: 3%;
+}
+
 
 nav {
     font-size: 14px;
     position: absolute;
     right: 1%;
-    top: -1%;
+    top: -0%;
+
 
 }
-
-main {
-    /* display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 100px); */
-
+.todosOsProdutos{
 
 }
 
 
-.cabecalho {
 
-    padding: 10px 5px;
-    background-color: aquamarine;
-}
 
-input {
+/* input {
     font-size: 17 px;
     padding: 0px 90px 0px 0px;
 
-}
+} */
 
-li::marker {
-    color: hsl(30, 83%, 21%);
-    margin: 7px 8px 0px 0px;
-}
 
-.lista {
-    font-size: 13px;
-}
 
 .primeiraImagem::before {
     content: url(imagem/capacete.jpg);
 }
 
+
 .segundaImagem::before {
-    content: url(imagem/capaceteBranco.jpeg);
+    content: url(imagem/capacete.jpg);
+
 }
 
 .terceiraImagem::before {

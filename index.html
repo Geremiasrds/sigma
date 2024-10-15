@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja Sigma </title>
-    <link rel="shortcut icon" href="src/imagens/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/css/imagem/favicon-16x16.png" type="image/x-icon">
 </head>
-<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="src/css/reset.css">
 <link rel="stylesheet" href="src/css/style.css">
+<link rel="stylesheet" href="src/css/mobile-responsivo.css">
+<link rel="stylesheet" href="src/css/deskitop-responsivo.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Sixtyfour+Convergence&display=swap"
+    rel="stylesheet">
 
 <body>
     <header class="cabecalho">
@@ -21,70 +25,81 @@
             <h1 class="H1sigma">SIGMA</h1><br>
             <label for="text"></label>
             <input type="text" placeholder="Oque você procura?" id="pesquisa">
-            <button>perquisar</button>
+            <button>Buscar</button>
         </form>
-        <nav>
-            <ul>
+        <nav >
+            <ul id="li">
                 <li><a href="src/sobre-a-loja/quemsomos.html">quem-somos</a></li>
                 <li><a href="src/sobre-a-loja/quemsomos.html">onde-estamos</a></li>
                 <li><a href="src/sobre-a-loja/quemsomos.html">contate-nos</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h2>loja</h2>
-        <span>Ola, seja bem vindo! Conheça nossos produtos logo de cara.</span>
+    <main id="paginaGeral">
+    <h2>loja</h2>
+    <span>Ola, seja bem vindo! Conheça nossos produtos logo de cara</span>
         <div class="TodosOsProdutos">
-                    <a href="">
-                    <p class="primeiraImagem">melhor capacete (Asx)</p></a><a href="">
-                    <p class="segundaImagem"> melhor capacete branco (Shark)</p></a><a href="">
-                    <p class="terceiraImagem">Melhor marca de kit (Rifel)</p></a>
-            
+            <a href="">
+                <p class="primeiraImagem">melhor capacete (Asx)</p>
+            </a><a href="">
+                <p class="segundaImagem"> melhor capacete branco (Shark)</p>
+            </a><a href="">
+                <p class="terceiraImagem">Melhor marca de kit (Rifel)</p>
+            </a>
+            </a><a href="">
+                <p class="terceiraImagem">Melhor marca de kit (Rifel)</p>
+            </a>
+            </a><a href="">
+                <p class="terceiraImagem">Melhor marca de kit (Rifel)</p>
+            </a>
+
         </div>
+        <div class="mais-informacoes">
         <h2>Conheça oque temos pra você e aproveite ao maximo!</h2>
         <h3>Veja a lista abaixo e clique no que você tem interesse.</h3>
-        <div class="lista">
-        <ul class="primeiraLista">
-            <li> <a href="">Peças automotivas</a></li>
-            <li><a href="">Itens que são muito utés</a></li>
-            <li><a href="">Acessorios Masculino</a></li>
-            <li><a href="">AcessoriosFemenino</a></li>
-        </ul>
-        <h2>Confira nossos serviços abaixo</h2>
-        <ul class="segundaLista">
-            <li>Revisão</li>
-            <li>Substituição de peças</li>
-            <li>Manutenção</li>
-        </ul>
-       </div>
+        <div class="listas">
+            <ul class="primeiraLista">
+                <li> <a href="">Peças automotivas</a></li>
+                <li><a href="">Itens que são muito utés</a></li>
+                <li><a href="">Acessorios Masculino</a></li>
+                <li><a href="">AcessoriosFemenino</a></li>
+            </ul>
+            <h2>Confira nossos serviços abaixo</h2>
+            <ul class="segundaLista">
+                <li>Revisão</li>
+                <li>Substituição de peças</li>
+                <li>Manutenção</li>
+            </ul>
+        </div>
         <footer>
             <form action="email">
                 <h4>Você gostaria de participar de nossas promoções?
-            <div class="butaoDePromocao"> 
-                <button>SIM</button><button>NÃO</button>
-                </h4><h2>Deixe seu email para receber novidades <br> <input type="text" placeholder="seu.email@gmail.com"
-                id="email"><button>Click</button>
+                    <div class="butaoDePromocao">
+                        <button>SIM</button><button>NÃO</button>
+                </h4>
+                <h2>Deixe seu email para receber novidades <br> <input type="text" placeholder="seu.email@gmail.com"
+                        id="email"><button>Click</button>
                 </h2>
-            </div>
+                </div>
             </form>
         </footer>
-
+    </div>
     </main>
 
-    <input type="checkbox" id="toggle-menu">
     <div class="menu">
+    <input type="checkbox" id="toggle-menu">
         <label for="toggle-menu">X</label>
         <ul>
             <li>Menu principal</li>
             <li>Produtos mais vendidos</li>
-            <li>todos nossos produtos</li>
-            <li>Indicações</li>
-            <li>Resgates</li>
+            <li>Quem somos</li>
+            <li>Onde estamos</li>
+            <li>Contatos</li>
             <li>Relatórios</li>
         </ul>
     </div>
 
-    </header>
+ 
 
     </div>
     </div>
